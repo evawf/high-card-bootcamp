@@ -182,3 +182,41 @@ const player2Click = () => {
 };
 
 initGame();
+
+// 1.4 Set time out
+// const wowParagraph = document.createElement("p");
+// wowParagraph.innerHTML = "Click me here";
+// document.body.appendChild(wowParagraph);
+
+// const doLater = () => {
+//   wowParagraph.innerText = `cool! ${Math.floor(Math.random() * 100) + 1}`;
+// };
+
+// const myNewMain = (event) => {
+//   console.log("hey wow my new function");
+//   setTimeout(doLater, 1000);
+// };
+
+// wowParagraph.addEventListener("click", myNewMain);
+
+// Exercise
+console.log("setTimeout! - 1");
+const delayInMilliseconds = 1000; // this is one second
+console.log("setTimeout! - 2");
+const doLater = () => {
+  console.log("setTimeout! - 3");
+};
+console.log("setTimeout! - 4");
+setTimeout(doLater, delayInMilliseconds);
+console.log("setTimeout! - 5");
+
+/*
+"setTimeout! - 1"
+"setTimeout! - 2"
+"setTimeout! - 4"
+"setTimeout! - 5"
+1000s later
+"setTimeout! - 3"
+*/
+
+// Basic CSS
