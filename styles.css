@@ -34,3 +34,8 @@ body {
   margin: 5px 5px;
   border-radius: 10px;
 }
+
+h2 {
+  background-color: blue;
+  color: white;
+}
