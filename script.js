@@ -57,10 +57,10 @@ const makeDeck = () => {
   // Initialise an array of the 4 suits in our deck. We will loop over this array.
   // const suits = ["hearts", "diamonds", "clubs", "spades"];
   const suitsArr = [
-    { name: "hearts", symbol: "♥︎" },
-    { name: "diamonds", symbol: "♦︎" },
-    { name: "clubs", symbol: "♣︎" },
-    { name: "spades", symbol: "♠︎" },
+    { name: "hearts", symbol: "♥︎h" },
+    { name: "diamonds", symbol: "♦︎d" },
+    { name: "clubs", symbol: "♣︎c" },
+    { name: "spades", symbol: "♠︎s" },
   ];
 
   // Loop over the suits array
